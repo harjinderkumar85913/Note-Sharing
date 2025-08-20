@@ -1,0 +1,20 @@
+.flashcard {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+    margin-bottom: 20px;
+  }
+  
+  .flashcard:hover {
+    transform: scale(1.05);
+  }
+  
+  .flipped {
+    background:  #8E9775;
+    color: white;
+  }
